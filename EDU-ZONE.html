@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDU-ZONE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="bg-light" style="font-family: &quot;Sarabun&quot;, sans-serif">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-sm"
+    >
+      <div class="container">
+        <span class="navbar-brand fw-bold"> PIPARTOUR </span>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> Home </a>
+            </li>
+            <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
+                            สถานที่แนะนำ
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="Liblary.html">หอสมุดกลาง</a></li>
+                            <li><a class="dropdown-item" href="Nay.html">สะพานทับแก้ว</a></li>
+                            <li><a class="dropdown-item" href="To.html">Co-learning Space</a></li>
+                            <li><a class="dropdown-item" href="Toy.html">ศาลาเขียว</a></li>
+                        </ul>
+                    </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contract.html"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-5">
+      <header class="text-center py-5 mb-5 bg-light rounded-4 shadow-sm">
+        <h1 class="display-4 fw-bold text-success">EDU-ZONE</h1>
+        <p class="text-muted fs-5 mt-2">
+          พื้นที่สำหรับการเรียนรู้และการพักผ่อนของนักศึกษา
+        </p>
+        <div
+          class="mx-auto mt-3"
+          style="
+            width: 80px;
+            height: 4px;
+            background: #198754;
+            border-radius: 2px;
+          "
+        ></div>
+      </header>
+      <!-- ที่เลื่อนรูป caarousel -->
+      <div
+        id="placeSlide"
+        class="carousel slide mb-5 shadow rounded-4 overflow-hidden"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://i.ibb.co/JRLQmcbV/image.jpg"
+              class="d-block w-100"
+              style="height: 450px; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://i.ibb.co/SXGxnvR3/image.jpg"
+              class="d-block w-100"
+              style="height: 450px; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://i.ibb.co/6crmbqLd/image.jpg"
+              class="d-block w-100"
+              style="height: 450px; object-fit: cover"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#placeSlide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#placeSlide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <!-- Detail -->
+      <section class="bg-white p-4 p-md-5 rounded-4 shadow-sm mb-4">
+        <h2 class="fw-bold mb-4">รายละเอียดสถานที่</h2>
+        <div class="row g-4">
+          <!-- อธิบาย EDU -->
+          <div class="col-md-8">
+            <h5 class="fw-bold">EDU-ZONE</h5>
+            <p class="text-muted fs-5 lh-lg">
+              EDU-ZONE เป็นสถานที่ที่แต่ก่อนนั้นชำรุด
+              แต่ในปัจจุบันได้บูรณะสร้างใหม่ ให้มีพื้นที่นั่งเล่นที่กว้างขวาง
+              เหมาะสำหรับการจับกลุ่มติวหนังสือ กินข้าว หรือจะชวนเพื่อน ๆ
+              มานั่งเล่นผ่อนคลายหลังเรียนเสร็จก็ดี โดยมีสิ่งอำนวยความสะดวก เช่น
+              ม้านั่งยาวสำหรับหลายคน
+            </p>
+            <h5 class="fw-bold mt-4">บรรยากาศโดยรอบ</h5>
+            <p class="text-muted fs-5 lh-lg">
+              บรรยากาศโดยรอบมีทั้งแอ่งน้ำในมหาวิทยาลัย และยังตั้งอยู่ตรงข้าม
+              โรงอาหารเพชรรัตน์ อีกทั้งยังมีลมพัดเย็น ๆ มาเป็นระยะ
+              จึงเหมาะสำหรับการชวนเพื่อน ๆ มานั่งพักผ่อนหรือพูดคุยกัน
+            </p>
+          </div>
+          <!-- ด้านข้าง -->
+          <div class="col-md-4">
+            <div class="bg-light rounded-3 p-4 h-100">
+              <h6 class="fw-bold mb-3">ข้อมูลการใช้งาน</h6>
+              <p class="mb-2">
+                <strong>เวลาเปิดบริการ</strong><br />
+                <span class="text-muted"> 24 ชม. </span>
+              </p>
+              <p class="mb-0">
+                <strong>วิธีเข้าใช้งาน</strong><br />
+                <span class="text-muted">
+                  EDU-ZONE สามารถเดินเข้าได้เลย <br />
+                  (แต่ระวังโต๊ะเต็มนะ)
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ใกล้เคียง -->
+      <section class="mt-5">
+        <h3 class="fw-bold mb-4">สถานที่ใกล้เคียง</h3>
+        <div class="row g-4">
+          <!-- ใกล้เคียง 1 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img
+                src="https://i.ibb.co/Kc46zWpz/image.jpg"
+                class="card-img-top"
+                style="height: 180px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="fw-bold">โรงอาหารเพชรรัตน์</h5>
+                <p class="text-muted">
+                  โรงอาหารในดวงใจของเด็ก มศก อาหารเยอะ รสชาติอร่อย
+                  อยู่ห่างกันแค่ข้ามถนน
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/4DG78uwFmQj3KtEv6"
+                  class="btn btn-success btn-sm"
+                >
+                  แผนที่
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- ใกล้เคียง 2 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img
+                src="https://i.ibb.co/KjhcqLcP/image.jpg"
+                class="card-img-top"
+                style="height: 180px; object-fit: cover"
+                alt="image"
+              />
+              <div class="card-body">
+                <h5 class="fw-bold">7-Eleven สาขา หอพักเพชรรัตน์</h5>
+                <p class="text-muted">
+                  หากโรงอาหารปิดก็อย่าเสียใจ เดินถัดไปอีกนิดหน่อย
+                  มีเซเว่นคอยบริการอยู่น้า
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/xpqKiZE279eHX2V46"
+                  class="btn btn-success btn-sm"
+                >
+                  แผนที่
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- ใกล้เคียง 3 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img
+                src="https://tse1.mm.bing.net/th/id/OIP.9S-p347_Vjf1FQ4SRP37pQHaF9?rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="card-img-top"
+                style="height: 180px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="fw-bold">ตลาดอินดี้</h5>
+                <p class="text-muted">
+                  ทุกคนรู้ เด็ก มศก รู้จักตลาดอินดี้ ของถูก อร่อย
+                  ห่างกันแค่ประมาณ 100 เมตร สามารถซื้อของมานั่งกินได้เลย
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/o7yFeXjGh26dGwug7"
+                  class="btn btn-success btn-sm"
+                >
+                  แผนที่
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- mapใหญ่ -->
+      <div class="bg-white p-4 rounded-4 shadow-sm text-center">
+        <h4 class="fw-bold mb-3 text-start">ตำแหน่งสถานที่</h4>
+        <a href="https://maps.app.goo.gl/dyqi38x1EE93Bw5m6">
+          <img
+            src="https://raw.githubusercontent.com/Ameaodc-svg/webtech/refs/heads/main/Screenshot_13-3-2026_19452_www.google.com.jpeg"
+            class="w-100 rounded"
+            alt="map location"
+          />
+        </a>
+      </div>
+      <div class="mt-4">
+        <a href="Homepage.html" class="btn btn-success"> ← กลับไปหน้าสถานที่ </a>
+      </div>
+    </div>
+    <!-- ปุ่มขวาล่าง -->
+    <button
+      onclick="scrollToTop()"
+      class="btn btn-success rounded-circle shadow position-fixed bottom-0 end-0 m-4 d-flex align-items-center justify-content-center"
+      style="width: 55px; height: 55px"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script>
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+    </script>
+    <!-- Footer -->
+<footer class="bg-success text-white text-center p-3 mt-5">
+  © 2025 Chill Spot Guide. แนะนำสถานที่นั่งชิลและพักผ่อน
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
